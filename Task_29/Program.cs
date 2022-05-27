@@ -7,7 +7,7 @@ int[] array = new int[n];
 
 for (int i = 0; i < n; i++)
 {
-    Console.Write(i + " элемент = ");
+    Console.Write(i+1 + " элемент = ");
     array[i] = int.Parse(Console.ReadLine());
 }
 var str = string.Join(" ", array);
